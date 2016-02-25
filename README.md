@@ -12,12 +12,15 @@ Networks & Transactions lab from Feb 25, 2016
     git status
     git add -A
     git status
-    git commit -n "Initial commit"
+    git commit -m "Initial commit"
     git push
 
-    "git init": Initializes the local repository
-    "git remote add origin": Connect your local repository to a remote repository called 'origin'. Copy the remote URL from your GitHub repository. Use the SSH version of the remote URL for more... https://github.com/jacobhoving/git-example.git
-    "git status": See what the changed files are.
-    "git add -A": Add all changed files to this commit
-    git commit -n "initial commit"
+    'git init':     Initializes the local repository
+    'git remote add origin': Connect your local repository to a remote repository called 'origin'. Copy the remote URL from your GitHub repository. Use the SSH version of the remote URL for more... https://github.com/jacobhoving/git-example.git
+    'git status': See what the changed files are.
+    'git add -A': Add all changed files to this commit
+    'git commit -n "your commit message"': Comit the changed files to your local repository
+    'git push': Push commits from your local repository, to the remote repository (GitHub)
+    
+    Repeat the last four commands whenever you add a feature or fix a bug. The commit message describes the feature or bug fix.
     
